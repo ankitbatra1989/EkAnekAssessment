@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CAD5872250C90E500E13FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5871250C90E500E13FE9 /* AppDelegate.swift */; };
+		8CAD5874250C90E500E13FE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5873250C90E500E13FE9 /* SceneDelegate.swift */; };
+		8CAD5876250C90E500E13FE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5875250C90E500E13FE9 /* ViewController.swift */; };
+		8CAD5879250C90E500E13FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD5877250C90E500E13FE9 /* Main.storyboard */; };
+		8CAD587C250C90E500E13FE9 /* EkAnekAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD587A250C90E500E13FE9 /* EkAnekAssessment.xcdatamodeld */; };
+		8CAD587E250C90EB00E13FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD587D250C90EB00E13FE9 /* Assets.xcassets */; };
+		8CAD5881250C90EB00E13FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD587F250C90EB00E13FE9 /* LaunchScreen.storyboard */; };
+		8CAD588C250C90EB00E13FE9 /* EkAnekAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD588B250C90EB00E13FE9 /* EkAnekAssessmentTests.swift */; };
+		8CAD5897250C90EB00E13FE9 /* EkAnekAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5896250C90EB00E13FE9 /* EkAnekAssessmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CAD5888250C90EB00E13FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CAD5866250C90E500E13FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CAD586D250C90E500E13FE9;
+			remoteInfo = EkAnekAssessment;
+		};
+		8CAD5893250C90EB00E13FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CAD5866250C90E500E13FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CAD586D250C90E500E13FE9;
+			remoteInfo = EkAnekAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CAD586E250C90E500E13FE9 /* EkAnekAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkAnekAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAD5871250C90E500E13FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CAD5873250C90E500E13FE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CAD5875250C90E500E13FE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CAD5878250C90E500E13FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CAD587B250C90E500E13FE9 /* EkAnekAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EkAnekAssessment.xcdatamodel; sourceTree = "<group>"; };
+		8CAD587D250C90EB00E13FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CAD5880250C90EB00E13FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CAD5882250C90EB00E13FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAD5887250C90EB00E13FE9 /* EkAnekAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkAnekAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAD588B250C90EB00E13FE9 /* EkAnekAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkAnekAssessmentTests.swift; sourceTree = "<group>"; };
+		8CAD588D250C90EB00E13FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAD5892250C90EB00E13FE9 /* EkAnekAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkAnekAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAD5896250C90EB00E13FE9 /* EkAnekAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkAnekAssessmentUITests.swift; sourceTree = "<group>"; };
+		8CAD5898250C90EB00E13FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CAD586B250C90E500E13FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAD5884250C90EB00E13FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAD588F250C90EB00E13FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CAD5865250C90E500E13FE9 = {
+			isa = PBXGroup;
+			children = (
+				8CAD5870250C90E500E13FE9 /* EkAnekAssessment */,
+				8CAD588A250C90EB00E13FE9 /* EkAnekAssessmentTests */,
+				8CAD5895250C90EB00E13FE9 /* EkAnekAssessmentUITests */,
+				8CAD586F250C90E500E13FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAD586F250C90E500E13FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD586E250C90E500E13FE9 /* EkAnekAssessment.app */,
+				8CAD5887250C90EB00E13FE9 /* EkAnekAssessmentTests.xctest */,
+				8CAD5892250C90EB00E13FE9 /* EkAnekAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CAD5870250C90E500E13FE9 /* EkAnekAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5871250C90E500E13FE9 /* AppDelegate.swift */,
+				8CAD5873250C90E500E13FE9 /* SceneDelegate.swift */,
+				8CAD5875250C90E500E13FE9 /* ViewController.swift */,
+				8CAD5877250C90E500E13FE9 /* Main.storyboard */,
+				8CAD587D250C90EB00E13FE9 /* Assets.xcassets */,
+				8CAD587F250C90EB00E13FE9 /* LaunchScreen.storyboard */,
+				8CAD5882250C90EB00E13FE9 /* Info.plist */,
+				8CAD587A250C90E500E13FE9 /* EkAnekAssessment.xcdatamodeld */,
+			);
+			path = EkAnekAssessment;
+			sourceTree = "<group>";
+		};
+		8CAD588A250C90EB00E13FE9 /* EkAnekAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD588B250C90EB00E13FE9 /* EkAnekAssessmentTests.swift */,
+				8CAD588D250C90EB00E13FE9 /* Info.plist */,
+			);
+			path = EkAnekAssessmentTests;
+			sourceTree = "<group>";
+		};
+		8CAD5895250C90EB00E13FE9 /* EkAnekAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5896250C90EB00E13FE9 /* EkAnekAssessmentUITests.swift */,
+				8CAD5898250C90EB00E13FE9 /* Info.plist */,
+			);
+			path = EkAnekAssessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CAD586D250C90E500E13FE9 /* EkAnekAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAD589B250C90EB00E13FE9 /* Build configuration list for PBXNativeTarget "EkAnekAssessment" */;
+			buildPhases = (
+				8CAD586A250C90E500E13FE9 /* Sources */,
+				8CAD586B250C90E500E13FE9 /* Frameworks */,
+				8CAD586C250C90E500E13FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EkAnekAssessment;
+			productName = EkAnekAssessment;
+			productReference = 8CAD586E250C90E500E13FE9 /* EkAnekAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CAD5886250C90EB00E13FE9 /* EkAnekAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAD589E250C90EB00E13FE9 /* Build configuration list for PBXNativeTarget "EkAnekAssessmentTests" */;
+			buildPhases = (
+				8CAD5883250C90EB00E13FE9 /* Sources */,
+				8CAD5884250C90EB00E13FE9 /* Frameworks */,
+				8CAD5885250C90EB00E13FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CAD5889250C90EB00E13FE9 /* PBXTargetDependency */,
+			);
+			name = EkAnekAssessmentTests;
+			productName = EkAnekAssessmentTests;
+			productReference = 8CAD5887250C90EB00E13FE9 /* EkAnekAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CAD5891250C90EB00E13FE9 /* EkAnekAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAD58A1250C90EB00E13FE9 /* Build configuration list for PBXNativeTarget "EkAnekAssessmentUITests" */;
+			buildPhases = (
+				8CAD588E250C90EB00E13FE9 /* Sources */,
+				8CAD588F250C90EB00E13FE9 /* Frameworks */,
+				8CAD5890250C90EB00E13FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CAD5894250C90EB00E13FE9 /* PBXTargetDependency */,
+			);
+			name = EkAnekAssessmentUITests;
+			productName = EkAnekAssessmentUITests;
+			productReference = 8CAD5892250C90EB00E13FE9 /* EkAnekAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CAD5866250C90E500E13FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = EkAnek;
+				TargetAttributes = {
+					8CAD586D250C90E500E13FE9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8CAD5886250C90EB00E13FE9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8CAD586D250C90E500E13FE9;
+					};
+					8CAD5891250C90EB00E13FE9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8CAD586D250C90E500E13FE9;
+					};
+				};
+			};
+			buildConfigurationList = 8CAD5869250C90E500E13FE9 /* Build configuration list for PBXProject "EkAnekAssessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CAD5865250C90E500E13FE9;
+			productRefGroup = 8CAD586F250C90E500E13FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CAD586D250C90E500E13FE9 /* EkAnekAssessment */,
+				8CAD5886250C90EB00E13FE9 /* EkAnekAssessmentTests */,
+				8CAD5891250C90EB00E13FE9 /* EkAnekAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CAD586C250C90E500E13FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAD5881250C90EB00E13FE9 /* LaunchScreen.storyboard in Resources */,
+				8CAD587E250C90EB00E13FE9 /* Assets.xcassets in Resources */,
+				8CAD5879250C90E500E13FE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAD5885250C90EB00E13FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAD5890250C90EB00E13FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CAD586A250C90E500E13FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAD5876250C90E500E13FE9 /* ViewController.swift in Sources */,
+				8CAD5872250C90E500E13FE9 /* AppDelegate.swift in Sources */,
+				8CAD587C250C90E500E13FE9 /* EkAnekAssessment.xcdatamodeld in Sources */,
+				8CAD5874250C90E500E13FE9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAD5883250C90EB00E13FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAD588C250C90EB00E13FE9 /* EkAnekAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAD588E250C90EB00E13FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAD5897250C90EB00E13FE9 /* EkAnekAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CAD5889250C90EB00E13FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CAD586D250C90E500E13FE9 /* EkAnekAssessment */;
+			targetProxy = 8CAD5888250C90EB00E13FE9 /* PBXContainerItemProxy */;
+		};
+		8CAD5894250C90EB00E13FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CAD586D250C90E500E13FE9 /* EkAnekAssessment */;
+			targetProxy = 8CAD5893250C90EB00E13FE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CAD5877250C90E500E13FE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CAD5878250C90E500E13FE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CAD587F250C90EB00E13FE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CAD5880250C90EB00E13FE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CAD5899250C90EB00E13FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CAD589A250C90EB00E13FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CAD589C250C90EB00E13FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC5VP8ZFM5;
+				INFOPLIST_FILE = EkAnekAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekanek.EkAnekAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CAD589D250C90EB00E13FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC5VP8ZFM5;
+				INFOPLIST_FILE = EkAnekAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekanek.EkAnekAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CAD589F250C90EB00E13FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC5VP8ZFM5;
+				INFOPLIST_FILE = EkAnekAssessmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekanek.EkAnekAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkAnekAssessment.app/EkAnekAssessment";
+			};
+			name = Debug;
+		};
+		8CAD58A0250C90EB00E13FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC5VP8ZFM5;
+				INFOPLIST_FILE = EkAnekAssessmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekanek.EkAnekAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkAnekAssessment.app/EkAnekAssessment";
+			};
+			name = Release;
+		};
+		8CAD58A2250C90EB00E13FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC5VP8ZFM5;
+				INFOPLIST_FILE = EkAnekAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekanek.EkAnekAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EkAnekAssessment;
+			};
+			name = Debug;
+		};
+		8CAD58A3250C90EB00E13FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC5VP8ZFM5;
+				INFOPLIST_FILE = EkAnekAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekanek.EkAnekAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EkAnekAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CAD5869250C90E500E13FE9 /* Build configuration list for PBXProject "EkAnekAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAD5899250C90EB00E13FE9 /* Debug */,
+				8CAD589A250C90EB00E13FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAD589B250C90EB00E13FE9 /* Build configuration list for PBXNativeTarget "EkAnekAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAD589C250C90EB00E13FE9 /* Debug */,
+				8CAD589D250C90EB00E13FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAD589E250C90EB00E13FE9 /* Build configuration list for PBXNativeTarget "EkAnekAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAD589F250C90EB00E13FE9 /* Debug */,
+				8CAD58A0250C90EB00E13FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAD58A1250C90EB00E13FE9 /* Build configuration list for PBXNativeTarget "EkAnekAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAD58A2250C90EB00E13FE9 /* Debug */,
+				8CAD58A3250C90EB00E13FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CAD587A250C90E500E13FE9 /* EkAnekAssessment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CAD587B250C90E500E13FE9 /* EkAnekAssessment.xcdatamodel */,
+			);
+			currentVersion = 8CAD587B250C90E500E13FE9 /* EkAnekAssessment.xcdatamodel */;
+			path = EkAnekAssessment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8CAD5866250C90E500E13FE9 /* Project object */;
+}
