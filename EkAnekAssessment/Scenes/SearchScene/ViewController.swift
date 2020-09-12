@@ -253,7 +253,7 @@ extension ViewController : UICollectionViewDataSource,UICollectionViewDelegateFl
         let contentHeight = scrollView.contentSize.height
         let diffHeight: Int = Int(contentHeight - contentOffset)
         let frameHeight : Int = Int(scrollView.bounds.size.height)
-        if(diffHeight == frameHeight && isLoadingNewData == false)
+        if(diffHeight <= frameHeight && isLoadingNewData == false)
         {
             isLoadingNewData = true
             pagenumber = pagenumber + 1
