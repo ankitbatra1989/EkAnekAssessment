@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A976A771CBB323B8E5C53A9 /* Pods_EkAnekAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F07E72DF1D1B640D887EA97 /* Pods_EkAnekAssessmentUITests.framework */; };
+		7593392C6092AAC142A7AEC8 /* Pods_EkAnekAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4170AAE5E3FAB2EBA9E40DC8 /* Pods_EkAnekAssessment.framework */; };
 		8CAD5872250C90E500E13FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5871250C90E500E13FE9 /* AppDelegate.swift */; };
 		8CAD5874250C90E500E13FE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5873250C90E500E13FE9 /* SceneDelegate.swift */; };
 		8CAD5876250C90E500E13FE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5875250C90E500E13FE9 /* ViewController.swift */; };
@@ -16,6 +18,16 @@
 		8CAD5881250C90EB00E13FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD587F250C90EB00E13FE9 /* LaunchScreen.storyboard */; };
 		8CAD588C250C90EB00E13FE9 /* EkAnekAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD588B250C90EB00E13FE9 /* EkAnekAssessmentTests.swift */; };
 		8CAD5897250C90EB00E13FE9 /* EkAnekAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5896250C90EB00E13FE9 /* EkAnekAssessmentUITests.swift */; };
+		8CAD58A5250C92F200E13FE9 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD58A4250C92F200E13FE9 /* ImageDataModel.swift */; };
+		8CAD58AA250C936500E13FE9 /* SearchResultsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD58A9250C936500E13FE9 /* SearchResultsCollectionViewCell.swift */; };
+		8CAD58AE250C93B900E13FE9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD58AD250C93B900E13FE9 /* NetworkManager.swift */; };
+		8CAD58B0250C949300E13FE9 /* ImageDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD58AF250C949300E13FE9 /* ImageDownloadManager.swift */; };
+		8CAD58B2250C94B700E13FE9 /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD58B1250C94B700E13FE9 /* DownloadOperation.swift */; };
+		8CAD58B5250C94F400E13FE9 /* SearchResultsFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD58B4250C94F400E13FE9 /* SearchResultsFooterView.swift */; };
+		8CAD58BA250C969700E13FE9 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD58B9250C969700E13FE9 /* ImageDetailViewController.swift */; };
+		8CAD58BD250C96C100E13FE9 /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD58BC250C96C100E13FE9 /* PresentAnimator.swift */; };
+		8CAD58BF250C96DC00E13FE9 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD58BE250C96DC00E13FE9 /* DismissAnimator.swift */; };
+		A8A2FA0B329486533C5C1FE6 /* Pods_EkAnekAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20C3217B12E4819986CF96D /* Pods_EkAnekAssessmentTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F07E72DF1D1B640D887EA97 /* Pods_EkAnekAssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkAnekAssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4170AAE5E3FAB2EBA9E40DC8 /* Pods_EkAnekAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkAnekAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F00DA7B3F17BF49861D440F /* Pods-EkAnekAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkAnekAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-EkAnekAssessmentTests/Pods-EkAnekAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E7101FA13D06202C5D403F2 /* Pods-EkAnekAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkAnekAssessment.release.xcconfig"; path = "Target Support Files/Pods-EkAnekAssessment/Pods-EkAnekAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		83C37C6EC0785665FD391FE9 /* Pods-EkAnekAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkAnekAssessment.debug.xcconfig"; path = "Target Support Files/Pods-EkAnekAssessment/Pods-EkAnekAssessment.debug.xcconfig"; sourceTree = "<group>"; };
 		8CAD586E250C90E500E13FE9 /* EkAnekAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkAnekAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAD5871250C90E500E13FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CAD5873250C90E500E13FE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +68,19 @@
 		8CAD5892250C90EB00E13FE9 /* EkAnekAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkAnekAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAD5896250C90EB00E13FE9 /* EkAnekAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkAnekAssessmentUITests.swift; sourceTree = "<group>"; };
 		8CAD5898250C90EB00E13FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAD58A4250C92F200E13FE9 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		8CAD58A9250C936500E13FE9 /* SearchResultsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8CAD58AD250C93B900E13FE9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8CAD58AF250C949300E13FE9 /* ImageDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadManager.swift; sourceTree = "<group>"; };
+		8CAD58B1250C94B700E13FE9 /* DownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
+		8CAD58B4250C94F400E13FE9 /* SearchResultsFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsFooterView.swift; sourceTree = "<group>"; };
+		8CAD58B9250C969700E13FE9 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		8CAD58BC250C96C100E13FE9 /* PresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
+		8CAD58BE250C96DC00E13FE9 /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		9A267B1101EDB5018B37515D /* Pods-EkAnekAssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkAnekAssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-EkAnekAssessmentUITests/Pods-EkAnekAssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A112C5829C3AF2C7E5F95DB3 /* Pods-EkAnekAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkAnekAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-EkAnekAssessmentTests/Pods-EkAnekAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC3D57AE8288008733C4E6FD /* Pods-EkAnekAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkAnekAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-EkAnekAssessmentUITests/Pods-EkAnekAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E20C3217B12E4819986CF96D /* Pods_EkAnekAssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkAnekAssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7593392C6092AAC142A7AEC8 /* Pods_EkAnekAssessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A2FA0B329486533C5C1FE6 /* Pods_EkAnekAssessmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A976A771CBB323B8E5C53A9 /* Pods_EkAnekAssessmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6120FE4D361E0CB88879C3AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83C37C6EC0785665FD391FE9 /* Pods-EkAnekAssessment.debug.xcconfig */,
+				7E7101FA13D06202C5D403F2 /* Pods-EkAnekAssessment.release.xcconfig */,
+				6F00DA7B3F17BF49861D440F /* Pods-EkAnekAssessmentTests.debug.xcconfig */,
+				A112C5829C3AF2C7E5F95DB3 /* Pods-EkAnekAssessmentTests.release.xcconfig */,
+				9A267B1101EDB5018B37515D /* Pods-EkAnekAssessmentUITests.debug.xcconfig */,
+				BC3D57AE8288008733C4E6FD /* Pods-EkAnekAssessmentUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8CAD5865250C90E500E13FE9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				8CAD588A250C90EB00E13FE9 /* EkAnekAssessmentTests */,
 				8CAD5895250C90EB00E13FE9 /* EkAnekAssessmentUITests */,
 				8CAD586F250C90E500E13FE9 /* Products */,
+				6120FE4D361E0CB88879C3AF /* Pods */,
+				9C794A8C50AD1A6BFCCD70F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +151,11 @@
 			children = (
 				8CAD5871250C90E500E13FE9 /* AppDelegate.swift */,
 				8CAD5873250C90E500E13FE9 /* SceneDelegate.swift */,
-				8CAD5875250C90E500E13FE9 /* ViewController.swift */,
+				8CAD58BB250C969E00E13FE9 /* CustomAnimation */,
+				8CAD58B6250C966300E13FE9 /* Scenes */,
+				8CAD58AC250C93A100E13FE9 /* Networking */,
+				8CAD58A7250C933200E13FE9 /* Views */,
+				8CAD58A6250C931600E13FE9 /* Models */,
 				8CAD5877250C90E500E13FE9 /* Main.storyboard */,
 				8CAD587D250C90EB00E13FE9 /* Assets.xcassets */,
 				8CAD587F250C90EB00E13FE9 /* LaunchScreen.storyboard */,
@@ -131,6 +183,93 @@
 			path = EkAnekAssessmentUITests;
 			sourceTree = "<group>";
 		};
+		8CAD58A6250C931600E13FE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD58A4250C92F200E13FE9 /* ImageDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CAD58A7250C933200E13FE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD58B3250C94D900E13FE9 /* SearchResultsFooterView */,
+				8CAD58A8250C933A00E13FE9 /* SearchResultsCollectionViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CAD58A8250C933A00E13FE9 /* SearchResultsCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD58A9250C936500E13FE9 /* SearchResultsCollectionViewCell.swift */,
+			);
+			path = SearchResultsCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8CAD58AC250C93A100E13FE9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD58AD250C93B900E13FE9 /* NetworkManager.swift */,
+				8CAD58AF250C949300E13FE9 /* ImageDownloadManager.swift */,
+				8CAD58B1250C94B700E13FE9 /* DownloadOperation.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8CAD58B3250C94D900E13FE9 /* SearchResultsFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD58B4250C94F400E13FE9 /* SearchResultsFooterView.swift */,
+			);
+			path = SearchResultsFooterView;
+			sourceTree = "<group>";
+		};
+		8CAD58B6250C966300E13FE9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD58B7250C966C00E13FE9 /* SearchScene */,
+				8CAD58B8250C967700E13FE9 /* DetailScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8CAD58B7250C966C00E13FE9 /* SearchScene */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD5875250C90E500E13FE9 /* ViewController.swift */,
+			);
+			path = SearchScene;
+			sourceTree = "<group>";
+		};
+		8CAD58B8250C967700E13FE9 /* DetailScene */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD58B9250C969700E13FE9 /* ImageDetailViewController.swift */,
+			);
+			path = DetailScene;
+			sourceTree = "<group>";
+		};
+		8CAD58BB250C969E00E13FE9 /* CustomAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD58BC250C96C100E13FE9 /* PresentAnimator.swift */,
+				8CAD58BE250C96DC00E13FE9 /* DismissAnimator.swift */,
+			);
+			path = CustomAnimation;
+			sourceTree = "<group>";
+		};
+		9C794A8C50AD1A6BFCCD70F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4170AAE5E3FAB2EBA9E40DC8 /* Pods_EkAnekAssessment.framework */,
+				E20C3217B12E4819986CF96D /* Pods_EkAnekAssessmentTests.framework */,
+				3F07E72DF1D1B640D887EA97 /* Pods_EkAnekAssessmentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAD589B250C90EB00E13FE9 /* Build configuration list for PBXNativeTarget "EkAnekAssessment" */;
 			buildPhases = (
+				25BA10B58FA581695AFAC96A /* [CP] Check Pods Manifest.lock */,
 				8CAD586A250C90E500E13FE9 /* Sources */,
 				8CAD586B250C90E500E13FE9 /* Frameworks */,
 				8CAD586C250C90E500E13FE9 /* Resources */,
+				666302B18893D43643651DD8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAD589E250C90EB00E13FE9 /* Build configuration list for PBXNativeTarget "EkAnekAssessmentTests" */;
 			buildPhases = (
+				A323776163620F5941ADE3FD /* [CP] Check Pods Manifest.lock */,
 				8CAD5883250C90EB00E13FE9 /* Sources */,
 				8CAD5884250C90EB00E13FE9 /* Frameworks */,
 				8CAD5885250C90EB00E13FE9 /* Resources */,
@@ -173,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAD58A1250C90EB00E13FE9 /* Build configuration list for PBXNativeTarget "EkAnekAssessmentUITests" */;
 			buildPhases = (
+				7981CA0C7400C28C0ADCB2C1 /* [CP] Check Pods Manifest.lock */,
 				8CAD588E250C90EB00E13FE9 /* Sources */,
 				8CAD588F250C90EB00E13FE9 /* Frameworks */,
 				8CAD5890250C90EB00E13FE9 /* Resources */,
@@ -257,15 +400,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25BA10B58FA581695AFAC96A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EkAnekAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		666302B18893D43643651DD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EkAnekAssessment/Pods-EkAnekAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EkAnekAssessment/Pods-EkAnekAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EkAnekAssessment/Pods-EkAnekAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7981CA0C7400C28C0ADCB2C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EkAnekAssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A323776163620F5941ADE3FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EkAnekAssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CAD586A250C90E500E13FE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8CAD5876250C90E500E13FE9 /* ViewController.swift in Sources */,
+				8CAD58AA250C936500E13FE9 /* SearchResultsCollectionViewCell.swift in Sources */,
+				8CAD58BA250C969700E13FE9 /* ImageDetailViewController.swift in Sources */,
+				8CAD58A5250C92F200E13FE9 /* ImageDataModel.swift in Sources */,
+				8CAD58BD250C96C100E13FE9 /* PresentAnimator.swift in Sources */,
+				8CAD58B0250C949300E13FE9 /* ImageDownloadManager.swift in Sources */,
+				8CAD58B5250C94F400E13FE9 /* SearchResultsFooterView.swift in Sources */,
+				8CAD58AE250C93B900E13FE9 /* NetworkManager.swift in Sources */,
 				8CAD5872250C90E500E13FE9 /* AppDelegate.swift in Sources */,
 				8CAD587C250C90E500E13FE9 /* EkAnekAssessment.xcdatamodeld in Sources */,
 				8CAD5874250C90E500E13FE9 /* SceneDelegate.swift in Sources */,
+				8CAD58BF250C96DC00E13FE9 /* DismissAnimator.swift in Sources */,
+				8CAD58B2250C94B700E13FE9 /* DownloadOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +674,7 @@
 		};
 		8CAD589C250C90EB00E13FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C37C6EC0785665FD391FE9 /* Pods-EkAnekAssessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +693,7 @@
 		};
 		8CAD589D250C90EB00E13FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7101FA13D06202C5D403F2 /* Pods-EkAnekAssessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +712,7 @@
 		};
 		8CAD589F250C90EB00E13FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F00DA7B3F17BF49861D440F /* Pods-EkAnekAssessmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +735,7 @@
 		};
 		8CAD58A0250C90EB00E13FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A112C5829C3AF2C7E5F95DB3 /* Pods-EkAnekAssessmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +758,7 @@
 		};
 		8CAD58A2250C90EB00E13FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A267B1101EDB5018B37515D /* Pods-EkAnekAssessmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +779,7 @@
 		};
 		8CAD58A3250C90EB00E13FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3D57AE8288008733C4E6FD /* Pods-EkAnekAssessmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

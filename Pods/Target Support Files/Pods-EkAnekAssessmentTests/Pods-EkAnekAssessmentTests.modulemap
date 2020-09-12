@@ -1,0 +1,6 @@
+framework module Pods_EkAnekAssessmentTests {
+  umbrella header "Pods-EkAnekAssessmentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
